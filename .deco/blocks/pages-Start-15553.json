@@ -1,6 +1,48 @@
 {
   "name": "Home",
   "path": "/",
-  "sections": [],
+  "sections": [
+    {
+      "__resolveType": "site/sections/CursorHeart.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Header.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Banner.tsx",
+      "title": "Happy V-Day",
+      "text": "Heartfelt congratulations on the upcoming Valentine's Day! On this magical day, we invite you to immerse yourself in an atmosphere of love and coziness with our exclusive collection of cute milk-based drinks. These drinks are our expression of love for you, our valued guests.",
+      "subtitle": "Special Drinks and Tenderness This Valentine's Day! 💕 + Your Gift",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10529/7f52d309-9731-4f8a-8127-bf5e00ed93f0"
+    },
+    {
+      "__resolveType": "site/sections/Promocode.tsx",
+      "button": "shop now",
+      "title": "20% off with code: LOVEMILKUS",
+      "text": "Celebrate Valentine's Day in our cozy space, savoring every moment we've created for you. Our doors are open to make this day memorable and filled with love."
+    },
+    {
+      "__resolveType": "site/sections/Content.tsx",
+      "card": [
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10529/467a58cb-d583-4ff0-a270-7b539e721337",
+          "title": "💖 Pink Latte",
+          "text": "A delicate latte flavored with aromatic raspberry syrup and whipped cream"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10529/5ad6c089-22a8-44a0-ba25-4bba6e9a9be7",
+          "title": "🍫 Chocolate Bliss",
+          "text": "Hot chocolate with the addition of creamy milk"
+        }
+      ],
+      "button": "buy milkshakes"
+    },
+    {
+      "__resolveType": "site/sections/Footer.tsx",
+      "warning": "Don't forget to share this invitation with your loved ones — because fun is doubly enjoyable together!",
+      "address": "3 Building, 2 Street Avenue, City, 12345",
+      "newsletter": "You received this email because you signed up on our website or made a purchase from us. You can unsubscribe at any time."
+    }
+  ],
   "__resolveType": "website/pages/Page.tsx"
 }

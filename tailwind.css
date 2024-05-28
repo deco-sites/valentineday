@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer base {
+  body {
+    background-color: #FFC3D1;
+  }
 
   /* Allow changing font family via CMS */
   html {
@@ -41,5 +44,29 @@
 
   .scrollbar-none::-webkit-scrollbar {
     display: none;
+  }
+
+  .max-container-auto {
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .spicy-rice {
+    font-family: "Spicy Rice", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .rounded-mplus-1c {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-style: normal;
+  }
+
+  .inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
   }
 }

@@ -4,13 +4,23 @@
 
 import * as $$$$$$$$$$$0 from "./apps/deco/htmx.ts";
 import * as $$$$$$$$$$$1 from "./apps/site.ts";
-import * as $$$$$$0 from "./sections/Header.tsx";
-import * as $$$$$$1 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$0 from "./sections/Banner.tsx";
+import * as $$$$$$1 from "./sections/Content.tsx";
+import * as $$$$$$2 from "./sections/CursorHeart.tsx";
+import * as $$$$$$3 from "./sections/Footer.tsx";
+import * as $$$$$$4 from "./sections/Header.tsx";
+import * as $$$$$$5 from "./sections/Promocode.tsx";
+import * as $$$$$$6 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
   "sections": {
-    "site/sections/Header.tsx": $$$$$$0,
-    "site/sections/Theme/Theme.tsx": $$$$$$1,
+    "site/sections/Banner.tsx": $$$$$$0,
+    "site/sections/Content.tsx": $$$$$$1,
+    "site/sections/CursorHeart.tsx": $$$$$$2,
+    "site/sections/Footer.tsx": $$$$$$3,
+    "site/sections/Header.tsx": $$$$$$4,
+    "site/sections/Promocode.tsx": $$$$$$5,
+    "site/sections/Theme/Theme.tsx": $$$$$$6,
   },
   "apps": {
     "site/apps/deco/htmx.ts": $$$$$$$$$$$0,
