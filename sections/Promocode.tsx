@@ -1,4 +1,5 @@
 import { Button } from "site/components/Button.tsx";
+import { Envelope } from "site/islands/Envelope.tsx";
 
 interface Props {
   title: string;

@@ -1,17 +1,20 @@
 import { asset } from "$fresh/runtime.ts";
+import { AppContext } from "site/apps/site.ts";
 
-export default function CursorHeart() {
-  const heart = asset("/js/heart.js");
-  const music = asset("/music.mp3");
+export default function CursorHeart({ device }: { device: string }) {
+  if (device !== "desktop") {
+    return <></>;
+  }
 
-  return (
-    <>
-      <script src={heart} type="text/javascript"></script>
+  const heart = asset("/js/cursorHeart.js");
 
-      <audio autoPlay>
-        <source src={music} type="audio/mp3" />
-        Seu navegador não suporte a música! :(
-      </audio>
-    </>
-  );
+  return <script src={heart} type="text/javascript"></script>;
 }
+
+export const loader = (props: null, req: Request, ctx: AppContext) => {
+  const device = ctx.device;
+
+  return {
+    device,
+  };
+};

@@ -9,11 +9,10 @@
       "__resolveType": "site/sections/Header.tsx"
     },
     {
-      "__resolveType": "site/sections/Banner.tsx",
-      "title": "Happy V-Day",
+      "__resolveType": "site/sections/Gift.tsx",
+      "title": "HAPPY V-DAY",
       "text": "Heartfelt congratulations on the upcoming Valentine's Day! On this magical day, we invite you to immerse yourself in an atmosphere of love and coziness with our exclusive collection of cute milk-based drinks. These drinks are our expression of love for you, our valued guests.",
-      "subtitle": "Special Drinks and Tenderness This Valentine's Day! 💕 + Your Gift",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10529/7f52d309-9731-4f8a-8127-bf5e00ed93f0"
+      "subtitle": "SPECIAL DRINKS AND TENDERNESS THIS VALENTINE'S DAY! 💕 + YOUR GIFT"
     },
     {
       "__resolveType": "site/sections/Promocode.tsx",
@@ -23,6 +22,7 @@
     },
     {
       "__resolveType": "site/sections/Content.tsx",
+      "button": "buy milkshakes",
       "card": [
         {
           "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10529/467a58cb-d583-4ff0-a270-7b539e721337",
@@ -34,8 +34,7 @@
           "title": "🍫 Chocolate Bliss",
           "text": "Hot chocolate with the addition of creamy milk"
         }
-      ],
-      "button": "buy milkshakes"
+      ]
     },
     {
       "__resolveType": "site/sections/Footer.tsx",

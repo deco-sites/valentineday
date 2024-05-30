@@ -69,4 +69,63 @@
     font-style: normal;
     font-variation-settings: "slnt" 0;
   }
+
+  .envelope {
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    width: 20em; height: 10em;
+    border-radius: .25em;
+    background: lemonchiffon;
+  }
+
+  .envelope:before, .envelope:after {
+    position: absolute;
+    top: -.25em;
+    width: 40%; height: 30%;
+    content: '';
+  }
+  
+  .envelope:before {
+    left: 1em;
+    border-radius: 0 0 0 .25em;
+    box-shadow: -.2em .2em .2em dimgrey;
+    transform: skewX(37.5deg);
+  }
+  
+  .envelope:after {
+    right: 1em;
+    border-radius: 0 0 .25em 0;
+    transform: skewX(-37.5deg);
+    box-shadow: .2em .2em .2em dimgrey;
+  }
+
+  .heart {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: red;
+    transform: rotate(-45deg);
+    transform-origin: center center;
+  }
+  
+  .heart:before,
+  .heart:after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: red;
+    border-radius: 50%;
+  }
+  
+  .heart:before {
+    top: -10px;
+    left: 0;
+  }
+  
+  .heart:after {
+    left: 10px;
+    top: 0;
+  }
 }
