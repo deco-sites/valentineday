@@ -9,7 +9,7 @@ export function Envelope() {
     if (envelopeOpen.value) return;
 
     const audio = new Audio("/music.mp3");
-    // audio.play();
+    audio.play();
 
     envelopeOpen.value = true;
   };
