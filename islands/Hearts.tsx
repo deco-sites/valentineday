@@ -12,14 +12,12 @@ export default function Heart() {
 
     handleResize();
 
-    globalThis.addEventListener("resize", handleResize);
+    globalThis.addEventListener("scroll", handleResize);
 
     return () => {
-      globalThis.removeEventListener("resize", handleResize);
+      globalThis.removeEventListener("scroll", handleResize);
     };
   }, []);
-
-  console.log({ pageWidth, pageHeight });
 
   return (
     <div

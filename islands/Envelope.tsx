@@ -1,9 +1,10 @@
 import { asset } from "$fresh/runtime.ts";
 import { useSignal } from "@preact/signals";
+import { Letter } from "site/components/Letter.tsx";
 
-export function Envelope() {
-  const envelopeOpen = useSignal(false);
+export function Envelope({ letter }: { letter: string }) {
   const confetti = asset("/js/createConfetti.js");
+  const envelopeOpen = useSignal(false);
 
   const handleClick = () => {
     if (envelopeOpen.value) return;
@@ -21,13 +22,17 @@ export function Envelope() {
 
       <script src={confetti} type="text/javascript" defer></script>
 
-      <button
-        id="envelope"
-        onClick={handleClick}
-        class={`my-4 ${envelopeOpen.value ? "animate-none" : "animate-pulse"}`}
-      >
-        <div class="envelope" />
-      </button>
+      <div class="my-4">
+        {envelopeOpen.value ? <Letter letter={letter} /> : (
+          <button
+            id="envelope"
+            onClick={handleClick}
+            class="animate-pulse"
+          >
+            <div class="envelope" />
+          </button>
+        )}
+      </div>
     </>
   );
 }
