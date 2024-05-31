@@ -10,30 +10,30 @@
     },
     {
       "__resolveType": "site/sections/Gift.tsx",
-      "title": "HAPPY V-DAY",
-      "text": "Heartfelt congratulations on the upcoming Valentine's Day! On this magical day, we invite you to immerse yourself in an atmosphere of love and coziness with our exclusive collection of cute milk-based drinks. These drinks are our expression of love for you, our valued guests.",
-      "subtitle": "SPECIAL DRINKS AND TENDERNESS THIS VALENTINE'S DAY! 💕 + YOUR GIFT",
-      "letter": "<p>Meu amor,</p><p><br data-mce-bogus=\"1\"></p><p>Escrevo estas palavras com o coração cheio de gratidão e amor por você. Cada momento que passamos juntos é um lembrete constante de como sou abençoado por ter você ao meu lado. Hoje, mais do que nunca, quero expressar o quanto você significa para mim.</p><p><br data-mce-bogus=\"1\"></p><p>Desde o dia em que nos conhecemos, minha vida mudou para melhor. Sua presença trouxe luz aos meus dias mais sombrios e alegria aos meus momentos de tristeza. Você é minha âncora em meio à tempestade, meu refúgio seguro nos dias difíceis e minha fonte inesgotável de felicidade nos momentos de alegria.</p><p><br data-mce-bogus=\"1\"></p><p>Com todo o meu amor,</p><p><br data-mce-bogus=\"1\"></p><p><br data-mce-bogus=\"1\"></p><p><br data-mce-bogus=\"1\"></p>"
+      "title": "O amor está no ar ❤️",
+      "text": "Uma simples e singela homenagem para essa pessoa querida que você é! Uma carta de amor que representa todo o meu amor e admiração que tenho por você 💕",
+      "letter": "<p>Meu amor,</p><p><br data-mce-bogus=\"1\"></p><p>Escrevo estas palavras com o coração cheio de gratidão e amor por você. Cada momento que passamos juntos é um lembrete constante de como sou abençoado por ter você ao meu lado. Hoje, mais do que nunca, quero expressar o quanto você significa para mim.</p><p><br data-mce-bogus=\"1\"></p><p>Desde o dia em que nos conhecemos, minha vida mudou para melhor. Sua presença trouxe luz aos meus dias mais sombrios e alegria aos meus momentos de tristeza. Você é minha âncora em meio à tempestade, meu refúgio seguro nos dias difíceis e minha fonte inesgotável de felicidade nos momentos de alegria.</p><p><br data-mce-bogus=\"1\"></p><p>Com todo o meu amor,</p><p><br data-mce-bogus=\"1\"></p><p><br data-mce-bogus=\"1\"></p><p><br data-mce-bogus=\"1\"></p>",
+      "subtitle": "💕 Uma carta de amor 💕"
     },
     {
       "__resolveType": "site/sections/Promocode.tsx",
-      "button": "shop now",
-      "title": "20% off with code: LOVEMILKUS",
-      "text": "Celebrate Valentine's Day in our cozy space, savoring every moment we've created for you. Our doors are open to make this day memorable and filled with love."
+      "button": "AMO VOCÊ! 💕",
+      "title": "100% de desconto do meu coração pra você",
+      "text": "Para celebrar esse nosso dia dos namorados, preparei uma simples surpresa pra você 💕"
     },
     {
       "__resolveType": "site/sections/Content.tsx",
-      "button": "buy milkshakes",
+      "button": "AMO VOCÊ",
       "card": [
         {
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10529/467a58cb-d583-4ff0-a270-7b539e721337",
-          "title": "💖 Pink Latte",
-          "text": "A delicate latte flavored with aromatic raspberry syrup and whipped cream"
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10529/7517535b-29d9-43a4-8b1c-f04163fdc784",
+          "title": "💖 Nosso primeiro beijo",
+          "text": "Nosso beijo especial"
         },
         {
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10529/5ad6c089-22a8-44a0-ba25-4bba6e9a9be7",
-          "title": "🍫 Chocolate Bliss",
-          "text": "Hot chocolate with the addition of creamy milk"
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10529/38bdb4df-256e-4f78-a575-361944453ef6",
+          "title": "💖 Nossa primeira viagem juntos",
+          "text": "Nossa viagem especial"
         }
       ]
     },
