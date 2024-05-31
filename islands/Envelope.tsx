@@ -22,7 +22,7 @@ export function Envelope({ letter }: { letter: string }) {
 
       <script src={confetti} type="text/javascript" defer></script>
 
-      <div class="my-4">
+      <div class="my-4 px-4 lg:px-0">
         {envelopeOpen.value ? <Letter letter={letter} /> : (
           <button
             id="envelope"

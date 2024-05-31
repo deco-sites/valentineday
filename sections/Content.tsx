@@ -13,7 +13,7 @@ interface Props {
 
 export default function Content({ card, button }: Props) {
   return (
-    <div class="lg:max-w-[585px] mx-auto flex flex-col items-center justify-center mt-5 gap-6">
+    <div class="relative lg:max-w-[585px] mx-auto flex flex-col items-center justify-center mt-5 gap-6">
       <hr class="border border-[#00664F] bg-[#00664F] h-[3px] w-full" />
 
       <div class="flex flex-col lg:flex-row gap-7 lg:gap-14 px-3 lg:px-0">

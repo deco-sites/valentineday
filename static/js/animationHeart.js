@@ -5,7 +5,7 @@ function createHeart() {
   heart.style.height = heart.style.width;
   heart.style.left = `${Math.floor(Math.random() * 100) + 1}%`;
   heart.style.background = `rgba(255, ${Math.floor(Math.random() * 25) + 100 - 25}, ${Math.floor(Math.random() * 25) + 100}, 1)`;
-  const duration = Math.floor(Math.random() * 5) + 5;
+  const duration = Math.floor(Math.random() * 5) + 15;
   heart.style.animation = `love ${duration}s ease`;
   return heart;
 }

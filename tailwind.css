@@ -194,11 +194,9 @@
     line-height: 22px;
     color: blue;
     font-size: 24px;
-    font-family: 'Black Ops One', cursive;
     text-transform: uppercase;
     text-align: center;
     opacity: 0.4;
-    width: 150px;
     transform: rotate(-20deg);
   }
 }
