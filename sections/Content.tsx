@@ -23,7 +23,7 @@ export default function Content({ card, button }: Props) {
               src={item.image}
               width={246}
               height={304}
-              class="hover:scale-110 transition-all duration-300 w-full"
+              class="hover:scale-110 transition-all duration-300 w-full flex-1"
             />
             <div class="flex flex-col lg:px-0">
               <p class="text-[#00664F] rounded-mplus-1c font-extrabold">

@@ -5,7 +5,9 @@ interface Props {
 }
 
 const Text = ({ children }: { children: React.ReactNode }) => (
-  <p class="rounded-mplus-1c font-normal text-white text-xs">{children}</p>
+  <p class="rounded-mplus-1c font-normal text-white text-xs text-center">
+    {children}
+  </p>
 );
 
 export default function Footer({ warning, address, newsletter }: Props) {

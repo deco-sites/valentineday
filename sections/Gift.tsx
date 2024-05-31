@@ -11,7 +11,7 @@ interface Props {
 export default function Gift({ title, subtitle, letter, text }: Props) {
   return (
     <div class="relative flex flex-col items-center justify-center lg:max-w-[561px] mx-auto mt-5">
-      <h1 class="uppercase mt-2.5 text-[#00664F] spicy-rice text-6xl lg:text-[90px]">
+      <h1 class="uppercase mt-2.5 text-[#00664F] spicy-rice text-6xl lg:text-[90px] text-center">
         {title}
       </h1>
       <h2 class="uppercase text-[#00664F] mt-9 lg:max-w-[340px] text-center inter font-black">

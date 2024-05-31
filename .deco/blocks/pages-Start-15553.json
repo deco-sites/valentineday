@@ -10,38 +10,38 @@
     },
     {
       "__resolveType": "site/sections/Gift.tsx",
-      "title": "HAPPY V-DAY",
-      "text": "Heartfelt congratulations on the upcoming Valentine's Day! On this magical day, we invite you to immerse yourself in an atmosphere of love and coziness with our exclusive collection of cute milk-based drinks. These drinks are our expression of love for you, our valued guests.",
-      "subtitle": "SPECIAL DRINKS AND TENDERNESS THIS VALENTINE'S DAY! 💕 + YOUR GIFT",
-      "letter": "<p>Meu amor,</p><p><br data-mce-bogus=\"1\"></p><p>Escrevo estas palavras com o coração cheio de gratidão e amor por você. Cada momento que passamos juntos é um lembrete constante de como sou abençoado por ter você ao meu lado. Hoje, mais do que nunca, quero expressar o quanto você significa para mim.</p><p><br data-mce-bogus=\"1\"></p><p>Desde o dia em que nos conhecemos, minha vida mudou para melhor. Sua presença trouxe luz aos meus dias mais sombrios e alegria aos meus momentos de tristeza. Você é minha âncora em meio à tempestade, meu refúgio seguro nos dias difíceis e minha fonte inesgotável de felicidade nos momentos de alegria.</p><p><br data-mce-bogus=\"1\"></p><p>Sua bondade infinita e seu sorriso radiante iluminam meu mundo de maneiras que eu jamais poderia ter imaginado. Cada gesto seu, por menor que seja, é como uma nota suave de uma melodia celestial que embala minha alma.</p><p><br data-mce-bogus=\"1\"></p><p>Nosso amor é uma jornada maravilhosa, repleta de altos e baixos, mas em cada curva do caminho, sei que posso contar com você ao meu lado. Sua força, sua coragem e sua dedicação me inspiram todos os dias a ser um homem melhor, a ser merecedor do amor tão puro e profundo que você me oferece.</p><p><br data-mce-bogus=\"1\"></p><p>Com todo o meu amor,</p><p><br data-mce-bogus=\"1\"></p><p><br data-mce-bogus=\"1\"></p><p><br data-mce-bogus=\"1\"></p>"
+      "letter": "<p>Meu amor,</p><p><br data-mce-bogus=\"1\"></p><p>Escrevo estas palavras com o coração cheio de gratidão e amor por você. Cada momento que passamos juntos é um lembrete constante de como sou abençoado por ter você ao meu lado. Hoje, mais do que nunca, quero expressar o quanto você significa para mim.</p><p><br data-mce-bogus=\"1\"></p><p>Desde o dia em que nos conhecemos, minha vida mudou para melhor. Sua presença trouxe luz aos meus dias mais sombrios e alegria aos meus momentos de tristeza. Você é minha âncora em meio à tempestade, meu refúgio seguro nos dias difíceis e minha fonte inesgotável de felicidade nos momentos de alegria.</p><p><br data-mce-bogus=\"1\"></p><p>Com todo o meu amor,</p><p><br data-mce-bogus=\"1\"></p><p><br data-mce-bogus=\"1\"></p><p><br data-mce-bogus=\"1\"></p>",
+      "subtitle": "💕 Neste dia tão especial, surpreenda sua pessoa amada 💕",
+      "title": "A amor está no ar ❤️",
+      "text": "Feliz dia dos namorados! Neste dia mágico, convido você a relembrar nossos melhores momentos juntos"
     },
     {
       "__resolveType": "site/sections/Promocode.tsx",
-      "button": "shop now",
-      "title": "20% off with code: LOVEMILKUS",
-      "text": "Celebrate Valentine's Day in our cozy space, savoring every moment we've created for you. Our doors are open to make this day memorable and filled with love."
+      "button": "AMO VOCÊ",
+      "title": "100% disponível pra você",
+      "text": "Vamos celebrar esse dia dos namorados indo em um lugar especial que você tanto ama"
     },
     {
       "__resolveType": "site/sections/Content.tsx",
-      "button": "buy milkshakes",
+      "button": "AMO VOCÊ",
       "card": [
         {
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10529/467a58cb-d583-4ff0-a270-7b539e721337",
-          "title": "💖 Pink Latte",
-          "text": "A delicate latte flavored with aromatic raspberry syrup and whipped cream"
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10529/a67a5f60-5471-4d4f-9245-8b39ddd049db",
+          "title": "💖 Nosso primeiro beijo",
+          "text": "Esse foi o dia do nosso primeiro beijo"
         },
         {
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10529/5ad6c089-22a8-44a0-ba25-4bba6e9a9be7",
-          "title": "🍫 Chocolate Bliss",
-          "text": "Hot chocolate with the addition of creamy milk"
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10529/57171cf0-fc92-40ec-852f-39a63b2dd802",
+          "title": "🍫 Nossa primeira viagem juntos",
+          "text": "Esse foi o dia da nossa primeira viagem"
         }
       ]
     },
     {
       "__resolveType": "site/sections/Footer.tsx",
-      "warning": "Don't forget to share this invitation with your loved ones — because fun is doubly enjoyable together!",
-      "address": "3 Building, 2 Street Avenue, City, 12345",
-      "newsletter": "You received this email because you signed up on our website or made a purchase from us. You can unsubscribe at any time."
+      "warning": "AMO VOCÊ",
+      "address": "Rua do Amor, n 999",
+      "newsletter": "Você recebeu essa mensagem porque você é a pessoa escolhida pra passar o dia comigo"
     }
   ],
   "__resolveType": "website/pages/Page.tsx"

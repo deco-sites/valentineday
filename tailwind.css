@@ -175,6 +175,7 @@
   .envelope-open {
     padding: 3em;
     border: 1em solid transparent;
+    border-radius: 12px;
     background: linear-gradient(white, white)
                 padding-box,
                 repeating-linear-gradient(-45deg,
@@ -196,7 +197,7 @@
     font-size: 24px;
     text-transform: uppercase;
     text-align: center;
-    opacity: 0.4;
     transform: rotate(-20deg);
+    padding: 6px;
   }
 }
