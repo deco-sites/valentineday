@@ -39,9 +39,9 @@
     },
     {
       "__resolveType": "site/sections/Footer.tsx",
-      "warning": "Don't forget to share this invitation with your loved ones — because fun is doubly enjoyable together!",
-      "address": "3 Building, 2 Street Avenue, City, 12345",
-      "newsletter": "You received this email because you signed up on our website or made a purchase from us. You can unsubscribe at any time."
+      "warning": "Não se esqueça de compartilhar este convite com seus entes queridos – porque a diversão é duplamente agradável juntos!",
+      "address": "Eu ❤️ você ",
+      "newsletter": " "
     }
   ],
   "__resolveType": "website/pages/Page.tsx"
